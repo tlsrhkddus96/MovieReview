@@ -66,6 +66,7 @@ public class MovieServiceImpl implements MovieService{
     @Override
     public MovieDTO getMovie(Long mno) {
 
+
         List<Object[]> result = movieRepository.getMovieWithAll(mno);
 
         //Movie 엔티티는 가장 앞에 존재 - 모든 Row가 동일한 값
