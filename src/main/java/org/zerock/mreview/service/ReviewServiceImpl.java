@@ -26,7 +26,7 @@ public class ReviewServiceImpl implements ReviewService {
 
         List<Review> result = reviewRepository.findByMovie(movie);
 
-        return result.stream().map(movieReview -> entitiyToDto(movieReview)).collect(Collectors.toList());
+        return result.stream().map(movieReview -> entityToDto(movieReview)).collect(Collectors.toList());
 
     }
 

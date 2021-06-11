@@ -30,7 +30,7 @@ public interface ReviewService {
         return movieReview;
     }
 
-    default ReviewDTO entitiyToDto(Review movieReview){
+    default ReviewDTO entityToDto(Review movieReview){
 
         ReviewDTO movieReviewDTO = ReviewDTO.builder()
                 .reviewnum(movieReview.getReviewnum())
