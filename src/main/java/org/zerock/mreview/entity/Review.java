@@ -32,6 +32,7 @@ public class Review extends BaseEntity{
 
     public void chageText(String text){
         this.text = text;
+
     }
 
 }

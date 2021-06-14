@@ -39,6 +39,7 @@ public class ReviewServiceImpl implements ReviewService {
 
         return movieReview.getReviewnum();
 
+
     }
 
     @Override

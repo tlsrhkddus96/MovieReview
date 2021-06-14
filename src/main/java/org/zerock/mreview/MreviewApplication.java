@@ -12,4 +12,5 @@ public class MreviewApplication {
 		SpringApplication.run(MreviewApplication.class, args);
 	}
 
+
 }

@@ -23,4 +23,6 @@ public interface MovieRepository extends JpaRepository<Movie,Long> {
     List<Object[]> getMovieWithAll(Long mno); //특정 영화 조회
 
 
+
+
 }
